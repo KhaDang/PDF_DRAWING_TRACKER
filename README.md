@@ -48,6 +48,7 @@ Install required Python packages:
 
 🚀 How to Run
 - python main.py
+
 Make sure to adjust the folder_path and existing_excel paths in the script to your local directories before running.
 
 📦 Output Example
@@ -68,6 +69,8 @@ MIT License ()
 
 👤 Author
 Kha Dang
+
+
 Feel free to submit issues or enhancements via pull requests.
 
 
