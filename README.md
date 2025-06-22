@@ -18,8 +18,8 @@ This Python script automates the comparison between PDF drawing filenames (conta
 ## 🧪 Example Filename Format
 
 The script expects drawing filenames like:  
-ABC123A.pdf
-XYZ789B.pdf
+- ABC123A.pdf
+- XYZ789B.pdf
 
 Where:
 - `ABC123` is the drawing number
@@ -37,21 +37,17 @@ existing_excel = r'D:\path\to\your\BOM.xlsx'
 Generates an output Excel file:
 comparison_with_drawing_revision.xlsx
 With these sheets:
-
-Same Revision
-
-Different Revision
-
-Only in Folder
-
-Only in Excel
+- Same Revision
+- Different Revision
+- Only in Folder
+- Only in Excel
 
 📋 Requirements
 Install required Python packages:
-pip install pandas openpyxl
+- pip install pandas openpyxl
 
 🚀 How to Run
-python main.py
+- python main.py
 Make sure to adjust the folder_path and existing_excel paths in the script to your local directories before running.
 
 📦 Output Example
@@ -63,11 +59,9 @@ Drawing Number	Folder Revision	Excel Revision
 ABC123	A	B
 
 💡 Use Cases
-Engineering change tracking
-
-Revision consistency check between documents and BOM
-
-Pre-manufacturing quality control
+- Engineering change tracking
+- Revision consistency check between documents and BOM
+- Pre-manufacturing quality control
 
 📄 License
 MIT License ()
